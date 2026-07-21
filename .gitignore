@@ -1,0 +1,28 @@
+# Compiled class files
+*.class
+target/
+*.war
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MongoDB local data
+/data/
+dump/
