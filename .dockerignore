@@ -1,0 +1,27 @@
+# ── Docker ignore ─────────────────────────────────────────────────────────────
+# Keep the Docker build context small — don't send these to the daemon
+
+# Maven build output (Docker will build fresh inside the container)
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git history
+.git/
+
+# Local MongoDB data
+/data/
+dump/
